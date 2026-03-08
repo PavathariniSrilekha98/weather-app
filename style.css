@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.5s ease;
+  background: linear-gradient(to bottom, #74ebd5, #ACB6E5);
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.day-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.day-buttons button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.day-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  display: none;
+  text-align: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+}
