@@ -8,4 +8,4 @@ A simple Weather App built with HTML, CSS, and JavaScript using the OpenWeatherM
 - Responsive and mobile-friendly
 
 ## Live Demo
-[Open Weather App](https://app.netlify.com/projects/weather-pava/overview)
+[Open Weather App](https://weather-pava.netlify.app))
